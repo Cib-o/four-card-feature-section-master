@@ -15,7 +15,7 @@ body {
   flex-direction: column;
   font-family: 'Poppins', sans-serif;
   margin: 0;
-  padding: 80px 165px;
+  padding: 10px 60px;
 }
 
 h1,
@@ -54,10 +54,16 @@ p {
   letter-spacing: 0.11px;
   line-height: 25px;
   opacity: 0.5;
-  text-align: center;
-  width: 528px;
 }
 
 a {
   text-decoration: none;
+}
+
+/** Mobile Version **/
+@media (max-width: 612px) {
+  body {
+    margin: 0;
+    padding: 30px 10px;
+  }
 }
