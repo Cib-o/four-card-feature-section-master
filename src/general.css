@@ -61,7 +61,7 @@ a {
 }
 
 /** Mobile Version **/
-@media (max-width: 612px) {
+@media (max-width: 1350px) {
   body {
     margin: 0;
     padding: 30px 10px;

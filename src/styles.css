@@ -64,7 +64,7 @@ footer {
 }
 
 /** Mobile Version **/
-@media (max-width: 612px) {
+@media (max-width: 1350px) {
   header h2,
   header h1 {
     font-size: 24px;
